@@ -22,6 +22,6 @@ link PlaceHolder<br>
 How to run locally on docker:<br>
 1. Go to the project directory<br>
 2. Run the following commands on shell:<br>
-$ docker build . -t <image-name><br>
-$ docker run -p 5000:5000 -d <image-name><br>
+$ docker build . -t image-name<br>
+$ docker run -p 5000:5000 -d image-name<br>
 3. Go to http://localhost:5000/<br>
