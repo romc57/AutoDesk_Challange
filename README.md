@@ -6,7 +6,7 @@ GET /tweets?query=STRING <br>
 This service provides the last 10 tweets involving the query given.<br>
 example:<br>
 /tweets?query=some_query<br>
-will return a json with the last 10 tweets of the user.<br>
+will return a json with the last 10 tweets that answer this query.<br>
 
 GET /health<br>
 will return a json with the following keys regarding the machine<br>
