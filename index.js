@@ -3,7 +3,7 @@ const os = require('os');
 const twitter = require('twitter-v2');
 const process = require('process');
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 const api_baerer_token = 'AAAAAAAAAAAAAAAAAAAAAPXHQgEAAAAAXOvDXmsRb9z5Jg%2BYu9rg5sAsups%3Did0vbwzzK4ujuzI7FpoTdyUHkjx0ZC5k4CkuLMjAfDfsOtkoW9';
 var client = new twitter({
   bearer_token: api_baerer_token
@@ -32,7 +32,7 @@ app.get('/health', function(req, res){
 });
 
 // Listen on the pre defined port
-app.listen(PORT, () => console.log(`Listening on 5000`));
+app.listen(PORT, () => console.log(`Listening`));
 
 // Returns the health parameters of the machine
 function getHealth(){
