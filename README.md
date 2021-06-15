@@ -3,6 +3,7 @@ AutoDesk simple service
 the api provided:
 
 GET /tweets?query=STRING <br>
+
 This service provides the last 10 tweets involving the query given.<br>
 example:<br>
 /tweets?query=some_query<br>
