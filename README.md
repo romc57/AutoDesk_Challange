@@ -2,13 +2,13 @@ AutoDesk simple service
 
 the api provided:
 
-GET /tweets?query=STRING
+GET /tweets?query=STRING <br>
 This service provides the last 10 tweets involving the query given.
 example:
 /tweets?query=some_query
 will return a json with the last 10 tweets of the user.
 
-GET /health
+GET /health<br>
 will return a json with the following keys regarding the machine
 running the service:
 -OS Name
