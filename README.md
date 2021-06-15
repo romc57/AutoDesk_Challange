@@ -17,7 +17,7 @@ running the service:<br>
 -CPU usage<br>
 <br>
 A link for an active service on Heroku:<br>
-link PlaceHolder<br>
+https://autodesk-task.herokuapp.com
 
 How to run locally on docker:<br>
 1. Go to the project directory<br>
