@@ -4,7 +4,7 @@ const twitter = require('twitter-v2');
 const process = require('process');
 const app = express();
 const PORT = process.env.PORT || 5000;
-const api_baerer_token = 'AAAAAAAAAAAAAAAAAAAAAPXHQgEAAAAAXOvDXmsRb9z5Jg%2BYu9rg5sAsups%3Did0vbwzzK4ujuzI7FpoTdyUHkjx0ZC5k4CkuLMjAfDfsOtkoW9';
+const api_baerer_token = null;
 var client = new twitter({
   bearer_token: api_baerer_token
 });
